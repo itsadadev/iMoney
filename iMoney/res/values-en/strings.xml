@@ -1,0 +1,176 @@
+<resources>
+
+    <string name="depositAccount">Deposit Account</string>
+    <string name="cashAccount">Cash Account</string>
+    <string name="acc">Debt Account</string>
+    <string name="saving">Saving</string>
+    <string name="wallet">Wallet</string>
+    <string name="creditCard">Credit Card</string>
+    <string name="isNeed">Necessary</string>
+    <string name="sum">Total</string>
+    <string name="assetSum">Asset</string>
+    <string name="asset">Asset</string>
+    <string name="liquid">Liquid Asset</string>    
+    <string name="investment">Investment Asset</string>
+    <string name="personal">Personal Asset</string>
+    
+    <string name="liabilitySum">Liabilities</string>
+    <string name="liability">Liabilities</string>
+    <string name="shortTerm">Short-term Liabilities</string>
+    <string name="longTerm">Long-term Liabilities</string>
+    
+    <string name="total">Net worse</string>
+    <string name="totalNetWorseAndLiabilities">Total liabilities and net worse</string>
+    <string name="jan">JAN</string>
+    <string name="feb">FEB</string>
+    <string name="mar">MAR</string>
+    <string name="apr">APR</string>
+    <string name="may">MAY</string>
+    <string name="jun">JUN</string>
+    <string name="jul">JUL</string>
+    <string name="aug">AUG</string>
+    <string name="sep">SEP</string>
+    <string name="oct">OCT</string>
+    <string name="nov">NOV</string>
+    <string name="dec">DEC</string>
+    <string name="pleaseSelectLanguage">Please select language</string>
+    <string name="language">Language</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm">Confirm</string>
+    <string name="ok">OK</string>
+    <string name="save">Save</string>
+    <string name="thisMonth">This Month</string>
+    <string name="pleaseSelectAccount">Please select account</string>
+    <string name="accountForm">Form</string>
+    <string name="accountTo">To</string>
+    <string name="transactionType">Transaction type</string>
+    <string name="transactionExpend">Withdraw</string>
+    <string name="transactionIncome">Deposit</string>
+    <string name="transactionDate">Date</string>
+    <string name="transactionAmount">Amount</string>
+    <string name="pleaseEnterTransactionAmount">Please enter amount</string>
+    <string name="transactionCategory">Category</string>
+    <string name="pleaseSelectTransactionCategory">Please select category</string>
+    <string name="transactionDescription">Description (option)</string>
+    <string name="createTransactionDeposit">Create transaction</string>
+    <string name="createTransactionWithdraw">Create transaction</string>
+    <string name="transactionDeposit">Income category</string>
+    <string name="transactionWithdraw">Expande category</string>
+    <string name="transactionDetail">Transaction detail</string>
+    <string name="deleteTransaction">Delete transaction</string>
+    <string name="addTransaction">Create transaction</string>
+    <string name="editTransaction">Edit transaction</string>
+    <string name="editTransactionDeposit">Edit transaction</string>
+    <string name="editTransactionWithdraw">Edit transaction</string>
+    <string name="accountType">Account type</string>
+    <string name="accountTypeDialog">Account type</string>
+    <string name="icon">Icon</string>
+    <string name="accountName">Name</string>
+    <string name="pleaseEnterAccountName">Please enter account name</string>
+    <string name="accountBalance">Balance</string>
+    <string name="accountIcon">Account icon</string>
+    <string name="categoryIcon">Category icon</string>
+    <string name="addTransactionCategory">Add category</string>
+    <string name="transactionCategoryName">Name</string>
+    <string name="pleaseTransactionCategoryName">Please Enter category name</string>
+    <string name="transactionCategoryIcon">Icon</string>
+    <string name="transactionCategoryType">Type</string>
+    <string name="editAccount">Edit Account</string>
+    <string name="editTransactionCategory">Edit Category</string>
+    <string name="management">Management</string>
+    <string name="account">Account</string>
+    <string name="addAccount">Add Account</string>
+    <string name="category">Category</string>
+    <string name="addCategory">Add Category</string>
+    <string name="editCategory">Edit Category</string>
+    <string name="income">Income</string>
+    <string name="loan">Loan</string>
+    <string name="payment">Payment</string>
+    <string name="othor">Function</string>
+    <string name="setting">Setting</string>
+    <string name="backup">Backup</string>
+    <string name="help">Help</string>
+    <string name="rateApp">Rate App</string>
+    <string name="about">About</string>
+    <string name="display">Display</string>
+    <string name="moneyFormat">Money Format</string>
+    <string name="dateFormat">Date Format</string>
+    <string name="timeFormat">Time Format</string>
+    <string name="currency">Currency</string>
+    <string name="showAccountType">Show</string>
+
+    <!-- Budget -->
+    <string name="budget">Budget</string>
+    <string name="addBudget">Add budget</string>
+    <!-- Template -->
+    <string name="template">Template</string>
+    <string name="addTemplate">Add template</string>
+
+    <!-- Transaction -->
+
+    <string name="groupByDate">By Date</string>
+    <string name="groupByCategory">By Category</string>
+    <string name="groupByIncomeExpend">GroupByIncome/Expend</string>
+    <string name="noTransaction">No Transaction</string>
+    <string name="totalMonth">Total Month</string>
+    <string name="all">All</string>
+    <!-- message -->
+    <string name="success">success</string>
+    <!-- message -->
+    <string name="fail">fail</string>
+    <!-- Account -->
+    <string name="confirmDeleteAccount">Please confirm delete account</string>
+    <string name="deleteAccountSuccess">Delete account success</string>
+    <string name="deleteAccountFail">Delete account Fail</string>
+    
+    <!-- Category -->
+    <string name="categoryManagement">Category management</string>
+    <string name="categoryEmptry">No category</string>
+    <string name="confirmDeleteCategory">Please confirm delete Category</string>
+    <string name="deleteCategorySuccess">Delete category success</string>
+    <string name="deleteCategoryFail">Delete category Fail</string>
+    
+    <!-- Template -->
+    <string name="templateManagement">Template management</string>
+    <string name="templateEmptry">No template</string>
+    <string name="editTemplate">Edit template</string>
+    <string name="editTemplateSuccess">Edit template success</string>
+    <string name="editTemplateFail">Edit template fail</string>
+    <string name="confirmDeleteTemplate">Please confirm delete template</string>
+    <string name="deleteTemplateSuccess">Delete template success</string>
+    <string name="deleteTemplateyFail">Delete template Fail</string>
+    <string name="templateDetail">Template detail</string>
+    <!-- Transaction -->
+    <string name="addTransactionSuccess">Add transaction success</string>
+    <string name="addTransactionFail">Add transaction fail</string>
+    <string name="editTransactionSuccess">Edit transaction success</string>
+    <string name="editTransactionFail">Edit transaction fail</string>
+    <string name="confirmDeleteTransaction">Please confirm delete transaction</string>
+    <string name="deleteTransactionSuccess">Delete transaction success</string>
+    <string name="deleteTransactionFail">Delete transaction Fail</string>
+    <string name="transfer">Tranfer to account (option)</string>
+    <string name="isTransfer">Tranfer</string>
+    <string name="isNotTransfer">No Tranfer</string>
+    
+    
+    
+    <!-- account type -->
+    <string name="accounTypeManage">Account type management</string>
+    <string name="accounManage">Account management</string>
+    <string name="updateAccounTypeSuccess">Update account type success</string>
+    <string name="updateAccounTypeFail">Update account type fail</string>
+    
+    <!-- menu -->
+    <string name="search">Search</string>
+    <string name="groupDate">Group (Date)</string>
+    <string name="groupCategory">Group (Category)</string>
+    <string name="sort">Sort</string>
+    <string name="graph">Graph</string>
+    <string name="statistic">Static</string>
+    <string name="map">Map</string>
+    
+    <string name="importData">Import</string>
+    <string name="exportData">Export</string>
+    <string name="personalBalanceSheet">Personal balance sheet</string>
+
+</resources>

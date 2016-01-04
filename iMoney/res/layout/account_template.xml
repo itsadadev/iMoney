@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/selector_row_item"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/root_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:focusableInTouchMode="true"
+        android:paddingBottom="4dp"
+        android:paddingTop="4dp" >
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp" >
+
+            <LinearLayout
+                android:id="@+id/layoutImaAcc"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_centerVertical="true"
+                android:background="@drawable/circle_shape"
+                android:gravity="center" >
+
+                <ImageView
+                    android:id="@+id/imageAccount"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:paddingLeft="4dp"
+                    android:layout_gravity="center_vertical" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/layoutImaAcc"
+                android:paddingLeft="8dp"
+                android:textColor="#000000"
+                android:textSize="14sp" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="0dp"
+            android:gravity="center_vertical|center_horizontal" >
+
+            <TextView
+                android:id="@+id/tvBalance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/brown_500"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/imgAccountDetail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_chevron_right_black_24dp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

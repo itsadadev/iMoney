@@ -1,0 +1,175 @@
+<resources>
+
+    <string name="depositAccount">บัญชีเงินฝาก</string>
+    <string name="cashAccount">บัญชีเงินสด</string>
+    <string name="acc">บัญชีหนี้สิน</string>
+    <string name="saving">ออมทรัพย์</string>
+    <string name="wallet">กระเป๋าเงิน</string>
+    <string name="creditCard">บัตรเครดิต</string>
+    <string name="isNeed">จำเป็น</string>
+    <string name="sum">รวม</string>
+    <string name="asset">สินทรัพย์</string>
+     <string name="liquid">สินทรัพย์สภาพคล่อง</string>    
+    <string name="investment">สินทรัพย์เพื่อการลงทุน</string>
+    <string name="personal">สินทรัพย์ใช้ส่วนตัว</string>
+    <string name="assetSum">สินทรัพย์รวม</string>
+    <string name="liabilitySum">หนี้สินรวม</string>
+    <string name="liability">หนี้สิน</string>
+    <string name="shortTerm">หนี้สินระยะสั้น</string>
+    <string name="longTerm">หนี้สินระยะยาว</string>
+    <string name="total">ความมั่นคงสุทธิ</string>
+    <string name="totalNetWorseAndLiabilities">หนี้สินรวมและความมั่นคงสุทธิ</string>
+    <string name="jan">ม.ค.</string>
+    <string name="feb">ก.พ.</string>
+    <string name="mar">มี.ค.</string>
+    <string name="apr">เม.ย.</string>
+    <string name="may">พ.ค.</string>
+    <string name="jun">มิ.ย.</string>
+    <string name="jul">ก.ค.</string>
+    <string name="aug">ส.ค.</string>
+    <string name="sep">ก.ย.</string>
+    <string name="oct">ต.ค.</string>
+    <string name="nov">พ.ย.</string>
+    <string name="dec">ธ.ค.</string>
+    <string name="pleaseSelectLanguage">กรุณาเลือกภาษา</string>
+    <string name="accountForm">จาก</string>
+    <string name="accountTo">ไปยัง</string>
+    <string name="language">ภาษา</string>
+    <string name="cancel">ยกเลิก</string>
+    <string name="confirm">ยืนยัน</string>
+    <string name="ok">ตกลง</string>
+    <string name="save">บันทึก</string>
+    <string name="thisMonth">เดือนนี้</string>
+    <string name="pleaseSelectAccount">กรุณาเลือกบัญชี</string>
+    <string name="transactionType">ชนิดธุรกรรม</string>
+    <string name="transactionExpend">ถอน</string>
+    <string name="transactionIncome">ฝาก</string>
+    <string name="loan">กู้</string>
+    <string name="payment">จ่าย</string>
+    <string name="transactionDate">วันที่</string>
+    <string name="transactionAmount">จำนวนเงิน</string>
+    <string name="pleaseEnterTransactionAmount">กรุณากรอกจำนวนเงิน</string>
+    <string name="transactionCategory">ประเภทธุรกรรม</string>
+    <string name="pleaseSelectTransactionCategory">กรุณาเลือกประเภท</string>
+    <string name="transactionDescription">คำอธิบาย  (option)</string>
+    <string name="createTransactionDeposit">ทำรายการ ฝาก</string>
+    <string name="createTransactionWithdraw">ทำรายการ ถอน</string>
+    <string name="transactionDeposit">ประเภท รายรับ</string>
+    <string name="transactionWithdraw">ประเภท รายจ่าย</string>
+    <string name="transactionDetail">รายละเอียดธุรกรรม</string>
+    <string name="deleteTransaction">ลบธุรกรรม</string>
+    <string name="addTransaction">เพิ่มธุรกรรม</string>
+    <string name="editTransaction">แก้ไขธุรกรรม</string>
+    <string name="editTransactionDeposit">แก้ไขรายรับ</string>
+    <string name="editTransactionWithdraw">แก้ไขรายจ่าย</string>
+    <string name="accountType">ประเภทบัญชี</string>
+    <string name="accountTypeDialog">ประเภทบัญชี</string>
+    <string name="icon">ไอคอน</string>
+    <string name="accountName">ชื่อบัญชี</string>
+    <string name="pleaseEnterAccountName">กรุณากรอก ชื่อบัญชี</string>
+    <string name="accountBalance">จำนวนเงิน</string>
+    <string name="accountIcon">ไอคอนบัญชี</string>
+    <string name="categoryIcon">ไอคอนประเภท</string>
+    <string name="addTransactionCategory">เพิ่มประเภทธุรกรรม</string>
+    <string name="transactionCategoryName">ชื่อประเภท</string>
+    <string name="pleaseTransactionCategoryName">กรุณากรอก ชื่อประเภท</string>
+    <string name="transactionCategoryIcon">ไอคอน</string>
+    <string name="transactionCategoryType">ชนิด</string>
+    <string name="editAccount">แก้ไขบัญชี</string>
+    <string name="editTransactionCategory">แก้ไขประเภทธุรกรรม</string>
+    <string name="management">การจัดการ</string>
+    <string name="account">บัญชี</string>
+    <string name="addAccount">เพิ่มบัญชี</string>
+    <string name="category">ประเภทธุรกรรม</string>
+    <string name="addCategory">เพิ่มประเภทธุรกรรม</string>
+    <string name="editCategory">แก้ไขประเภทธุรกรรม</string>
+    <string name="income">รายรับ</string>
+    <string name="expand">รายจ่าย</string>
+    <string name="othor">ฟังก์ชัน</string>
+    <string name="setting">ตั้งค่า</string>
+    <string name="backup">สำรองข้อมูล</string>
+    <string name="help">ช่วยเหลือ</string>
+    <string name="rateApp">ให้คะแนน</string>
+    <string name="about">เกี่ยวกับผู้พัฒนา</string>
+    <string name="display">การแสดงผล</string>
+    <string name="moneyFormat">รูปแบบเงิน</string>
+    <string name="dateFormat">รูปแบบวันที่</string>
+    <string name="timeFormat">รูปแบบเวลา</string>
+    <string name="currency">สกุลเงิน</string>
+    <string name="showAccountType">แสดง</string>
+
+    <!-- Budget -->
+    <string name="budget">งบประมาณ</string>
+    <string name="addBudget">เพิ่มงบประมาณ</string>
+    <!-- Template -->
+    <string name="template">เทมเพลต</string>
+    <string name="addTemplate">เพิ่มเทมเพลต</string>
+
+    <!-- Transaction -->
+    <string name="groupByDate">ตามวัน</string>
+    <string name="groupByCategory">ตามประเภท</string>
+    <string name="groupByIncomeExpend">จัดกลุ่มตามรายรับ/จ่าย</string>
+    <string name="noTransaction">ไม่มีรายการ</string>
+    <string name="totalMonth">รวมเดือนนี้</string>
+    <string name="all">ทั้งหมด</string>
+
+    <!-- message -->
+    <string name="success">เรียบร้อย</string>
+    <!-- message -->
+    <string name="fail">ข้อผิดพลาด</string>
+    <!-- Account -->
+    <string name="confirmDeleteAccount">กรุณายืนยัน การลบบัญชี</string>
+    <string name="deleteAccountSuccess">ลบบัญชี เรียบร้อย</string>
+    <string name="deleteAccountFail">ลบบัญชี เกิดข้อผิดพลาด</string>
+    <!-- Category -->
+    <string name="categoryManagement">จัดการประเภทธุรกรรม</string>
+    <string name="categoryEmptry">ไม่มีประเภทธุรกรรม</string>
+    <string name="confirmDeleteCategory">กรุณายืนยัน การลบประเภทธุรกรรม</string>
+    <string name="deleteCategorySuccess">ลบประเภทธุรกรรม เรียบร้อย</string>
+    <string name="deleteCategoryFail">ลบประเภทธุรกรรม เกิดข้อผิดพลาด</string>
+    
+    <!-- Template -->
+    <string name="templateManagement">จัดการรายการโปรด</string>
+    <string name="templateEmptry">ไม่มีรายการโปรด</string>
+    <string name="editTemplate">แก้ไข รายการโปรด</string>
+    <string name="editTemplateSuccess">แก้ไข รายการโปรด เรียบร้อย</string>
+    <string name="editTemplateFail">แก้ไข รายการโปรด เกิดข้อผิดพลาด</string>
+    <string name="confirmDeleteTemplate">กรุณายืนยัน การลบรายการโปรด</string>
+    <string name="deleteTemplateSuccess">ลบรายการโปรด เรียบร้อย</string>
+    <string name="deleteTemplateyFail">ลบรายการโปรด เกิดข้อผิดพลาด</string>
+    <string name="templateDetail">รายละเอียดรายการโปรด</string>
+    <!-- Transaction -->
+    <string name="addTransactionSuccess">เพิ่ม ธุรกรรม เรียบร้อย</string>
+    <string name="addTransactionFail">เพิ่ม ธุรกรรม เกิดข้อผิดพลาด</string>
+    <string name="editTransactionSuccess">แก้ไข ธุรกรรม เรียบร้อย</string>
+    <string name="editTransactionFail">แก้ไข ธุรกรรม เกิดข้อผิดพลาด</string>
+    <string name="confirmDeleteTransaction">กรุณายืนยัน การลบธุรกรรม</string>
+    <string name="deleteTransactionSuccess">ลบธุรกรรม เรียบร้อย</string>
+    <string name="deleteTransactionFail">ลบธุรกรรม เกิดข้อผิดพลาด</string>
+    
+    <string name="transfer">โอน ไป บัญชี (option)</string>
+    <string name="isTransfer">โอน</string>
+    <string name="isNotTransfer">ไม่โอน</string>
+    
+    
+    
+    <!-- account type -->
+    <string name="accounTypeManage">จัดการประเภทบัญชี</string>
+    <string name="accounManage">จัดการบัญชี</string>
+    <string name="updateAccounTypeSuccess">แก้ไข ประเภทบัญชี เรียบร้อย</string>
+    <string name="updateAccounTypeFail">แก้ไข ประเภทบัญชี เกิดข้อผิดพลาด</string>
+    
+    <!-- menu -->
+    <string name="search">Search</string>
+    <string name="groupDate">Group (Date)</string>
+    <string name="groupCategory">Group (Category)</string>
+    <string name="sort">Sort</string>
+    <string name="graph">Graph</string>
+   <string name="statistic">Static</string>
+    <string name="map">Map</string>
+    
+    <string name="importData">นำเข้าข้อมูล</string>
+    <string name="exportData">ส่งออกข้อมูล</string>
+    <string name="personalBalanceSheet">งบดุลส่วนบุคคล</string>
+
+</resources>

@@ -1,0 +1,98 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="spinnerItemStyle" parent="android:Widget.TextView.SpinnerItem"></style>
+
+    <style name="custom_radio_withdraw" parent="@android:style/Widget.CompoundButton.RadioButton">
+        <item name="android:button">@drawable/selector_radio_withdraw</item>
+    </style>
+
+    <style name="custom_radio_deposit" parent="@android:style/Widget.CompoundButton.RadioButton">
+        <item name="android:button">@drawable/selector_radio_deposit</item>
+    </style>
+
+    <!-- Brown -->
+    <style name="Theme.Brown" parent="@android:style/Theme.Holo.Light">
+        <item name="android:actionBarItemBackground">@color/brown_500</item>
+        <item name="android:popupMenuStyle">@style/PopupMenu.Brown</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Brown</item>
+        <item name="android:actionBarTabStyle">@style/ActionBarTabStyle.Brown</item>
+        <item name="android:actionBarTabTextStyle">@style/ActionBarTabText.Brown</item>
+        <item name="android:actionDropDownStyle">@style/DropDownNav.Brown</item>
+        <item name="android:actionBarStyle">@style/ActionBar.Solid.Brown</item>
+        <item name="android:actionModeBackground">@drawable/cab_background_top_brown</item>
+        <item name="android:actionModeSplitBackground">@drawable/cab_background_bottom_brown</item>
+        <item name="android:actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Brown</item>
+    </style>
+
+    <style name="ActionBar.Solid.Brown" parent="@android:style/Widget.Holo.Light.ActionBar.Solid">
+        <item name="android:background">@color/brown_500</item>
+        <item name="android:backgroundStacked">@drawable/ab_stacked_solid_brown</item>
+        <item name="android:backgroundSplit">@drawable/ab_bottom_solid_brown</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Brown</item>
+    </style>
+
+    <style name="ActionBar.Transparent.Brown" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@drawable/ab_transparent_brown</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Brown</item>
+        
+    </style>
+
+    <style name="PopupMenu.Brown" parent="@android:style/Widget.Holo.Light.ListPopupWindow">
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_brown</item>
+    </style>
+
+    <style name="DropDownListView.Brown" parent="@android:style/Widget.Holo.Light.ListView.DropDown">
+        <item name="android:listSelector">@drawable/selectable_background_brown</item>
+    </style>
+
+    <style name="ActionBarTabStyle.Brown" parent="@android:style/Widget.Holo.Light.ActionBar.TabView">
+        <item name="android:background">@drawable/tab_indicator_ab_brown</item>
+    </style>
+
+    <style name="ActionBarTabText.Brown" parent="@android:style/Widget.Holo.ActionBar.TabText">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="DropDownNav.Brown" parent="@android:style/Widget.Holo.Light.Spinner">
+        <item name="android:background">@drawable/spinner_background_ab_brown</item>
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_brown</item>
+        <item name="android:dropDownSelector">@drawable/selectable_background_brown</item>
+    </style>
+
+    <style name="ProgressBar.Brown" parent="@android:style/Widget.Holo.Light.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progress_horizontal_brown</item>
+    </style>
+
+    <style name="ActionButton.CloseMode.Brown" parent="@android:style/Widget.Holo.Light.ActionButton.CloseMode">
+        <item name="android:background">@drawable/btn_cab_done_brown</item>
+    </style>
+
+    <!-- this style is only referenced in a Light.DarkActionBar based theme -->
+    <style name="Theme.Brown.Widget" parent="@android:style/Theme.Holo">
+        <item name="android:popupMenuStyle">@style/PopupMenu.Brown</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Brown</item>
+    </style>
+    <!-- End Brown -->
+
+    <style name="GreyTheme" parent="AppBaseTheme">
+        <item name="android:background">@color/grey_500</item>
+    </style>
+
+</resources>
